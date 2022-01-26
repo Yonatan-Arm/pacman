@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color:white;
+  margin:auto;
+}
+
+.board-container {
+  background-color:#270082;
+  background-size: contain;
+  box-shadow: 0 1px 5px #CCC;
+  border-radius: 5px;
+  height: 430px;
+  width: 400px;
+
+}
+h1{
+  text-align: center;
+  text-shadow: 0 1px 1px;
+  color: #086E7D;
+  font: size 6em;
+  width: 200px;
+  background-color: #88E0EF;
+  letter-spacing: 5px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-shadow: 0 1px 1px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.pop-modal {
+  background-color:#FBF46D;
+  box-shadow: 0 1px 5px #CCC;
+  border-radius: 5px;
+  float: center;
+  margin: auto;
+  color: black;
+  width: 300px;
+  height: 100px;
+  display: none;
+}
+
+.btn {
+  display: block;
+  background-color: #A3DDCB;
+  margin-top: 10px;
+  width: 50px;
+  height: 20px;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.super{
+  color:red;
+}
